@@ -1,0 +1,75 @@
+.containerr{
+    background-color: #F7F7F7;
+    
+}
+.card{
+    border-radius: 1.25rem !important;
+}
+.price{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #D82425;
+}
+.btn-color{
+    background-color: #D82425;
+    color: #fff;
+
+}
+.btn-color-gray{
+    background-color: #90999F;
+    color: #fff;
+}
+.btn-color-gray::before{
+    content: '\f0ad';
+    font-family: FontAwesome;
+    display: inline-block;
+    width: 1.3em; 
+    margin-left: 10px;
+    color: #fff;
+
+}
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  .li {
+    padding-left: 1.3em;
+  }
+  .li:before {
+    content: "\f05d"; 
+    font-family: FontAwesome;
+    display: inline-block;
+    width: 2.3em; 
+    color: #D82425;
+  }
+  .title{
+      padding: 10px;
+      border-bottom: 3px solid #EBECED;
+  }
+
+  .fa-angle-up:before {
+      color: #D82425 ;
+  }
+  .twitter{
+      background-color: #1CA0F2;
+      border-radius: 10px;
+  }
+  .twitter-p{
+      color: #fff;
+  }
+  .twitter-p::before{
+      content: '\f099' ;
+      font-family: FontAwesome;
+      font-size: 2rem;
+      display: inline-block;
+      width: 2.3em; 
+      color: #fff;
+  }
+  @media only screen and (max-width: 761px) {
+
+    .twitter{
+        margin: 10px;
+    }
+
+  }
+

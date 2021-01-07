@@ -1,0 +1,29 @@
+.containe{
+    background-color: #313842;
+    padding: 10px;
+    color: #90999F;
+    
+}
+.containe i{
+    font-size: 25px;
+    padding: 10px;
+    color: #90999F;
+}
+.footer{
+    border-top: 2px solid #3C464E;
+}
+.b{
+    color:#fff;
+    text-decoration: none !important;
+
+}
+.b:hover{
+    color: #D82425;
+    
+}
+#accordion ,#accordion1{
+    border-bottom: 2px solid #3C464E;
+}
+
+
+
