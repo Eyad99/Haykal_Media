@@ -37,7 +37,7 @@ class Content extends Component{
   render(){
     return(
       <div className="containerr p-3">
-        <h2 className="title">الاشتراكات الرقمية</h2>
+        <h4 className="title">الاشتراكات الرقمية</h4>
         <div className="card-deck">
             <div className="card text-center" >
                 <div className="card-body text-center">
@@ -52,7 +52,7 @@ class Content extends Component{
                       <li className="li">إصادار  من المجلة 30</li>
                       <li className="li" >فيديو قيم يثري معارفك 300</li>
                       <li className="li">5 آلالف   مقالة تزداد يومياً</li>
-                      <li className="li">مكتبة المحتوى الصوتينشرة بريدية خاصة بالاعضاء</li>
+                      <li className="li">مكتبة المحتوى الصوتي نشرة بريدية خاصة بالاعضاء</li>
                     </ul>
                     <hr />
                     <p id="flip" className="card-text flip"><small className="text-muted">إخفاء كل ميزات الإشتراك</small></p>
@@ -72,7 +72,7 @@ class Content extends Component{
                       <li className="li">إصادار  من المجلة 30</li>
                       <li className="li">فيديو قيم يثري معارفك 300</li>
                       <li className="li">5 آلالف   مقالة تزداد يومياً</li>
-                      <li className="li">مكتبة المحتوى الصوتينشرة بريدية خاصة بالاعضاء</li>
+                      <li className="li">مكتبة المحتوى الصوتي نشرة بريدية خاصة بالاعضاء</li>
                     </ul>
                   <hr />
                   <p id="flip1" className="card-text flip"><small className="text-muted">إخفاء كل ميزات الإشتراك</small></p>
@@ -92,7 +92,7 @@ class Content extends Component{
                       <li className="li">إصادار  من المجلة 30</li>
                       <li className="li">فيديو قيم يثري معارفك 300</li>
                       <li className="li">5 آلالف   مقالة تزداد يومياً</li>
-                      <li className="li">مكتبة المحتوى الصوتينشرة بريدية خاصة بالاعضاء</li>
+                      <li className="li">مكتبة المحتوى الصوتي نشرة بريدية خاصة بالاعضاء</li>
                     </ul>
                   <hr />
                   <p id="flip2" className="card-text flip"><small className="text-muted">إخفاء كل ميزات الإشتراك</small></p>

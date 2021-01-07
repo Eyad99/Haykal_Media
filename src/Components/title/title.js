@@ -3,9 +3,10 @@ import './title.css';
 
 const Title=()=>{
     return(
-        <div className="row">
+        <div className="row title-r">
             <div className="col">
                 <h2 className="h2">الاشتركات</h2>
+                
             </div>
         </div>
     )

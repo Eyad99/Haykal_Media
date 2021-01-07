@@ -6,4 +6,8 @@
     border-bottom: 3.5px solid #D82425;
     width: 60px;
     padding-bottom: 5px;
+    font-weight: bolder;
+}
+.title-r{
+    margin-top: 85px;
 }
