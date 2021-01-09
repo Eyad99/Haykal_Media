@@ -7,6 +7,8 @@ import './content.css';
 class Content extends Component{
   
   componentDidMount(){
+      document.title = "الصفحة الرئيسية";
+
       $("#flip").click(function(e){
         e.preventDefault();
         $("#panel").slideToggle("slow",function(){     
@@ -36,7 +38,13 @@ class Content extends Component{
 
   render(){
     return(
+  
       <div className="containerr p-3">
+            <div className="row title-r">
+              <div className="col">
+                  <h2 className="h2">الاشتركات</h2>  
+              </div>
+            </div>
         <h4 className="title">الاشتراكات الرقمية</h4>
         <div className="card-deck">
             <div className="card text-center" >
@@ -101,7 +109,7 @@ class Content extends Component{
             </div>
         </div>
 
-        <div className="row text-center">
+        <div className="row text-center m-3">
           <div className="col-md-4 text-dark">
             <p className="card-text">يمكنك تحميل تطبيق هارفارد بزنس ريفيو من هنا</p>
             <img src={playstore} alt="Googly Play" />

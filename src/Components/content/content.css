@@ -1,6 +1,17 @@
 .containerr{
     background-color: #F7F7F7;
-    
+}  
+.title-r{
+    padding: 7px;
+    background-color: #fff;
+    margin-top: -15px;
+}
+.h2{
+    color: #3B3B3B;
+    border-bottom: 3.5px solid #D82425;
+    width: 60px;
+    padding-bottom: 5px;
+    font-weight: bolder;
 }
 .card{
     border-radius: 1.25rem !important;
@@ -27,6 +38,12 @@
     margin-left: 10px;
     color: #fff;
 
+}
+.flip{
+    cursor: pointer;
+}
+.flip:hover{
+    color: #D82425;
 }
 ul {
     list-style: none;
@@ -72,4 +89,7 @@ ul {
     }
 
   }
+
+
+
 

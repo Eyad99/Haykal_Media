@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import Header from './Components/header/header';
-import Title from './Components/title/title';
 import Content from './Components/content/content';
 import Footer from './Components/footer/footer';
+import About from './Components/about/about';
+import ContactUs from './Components/contactus/contactus';
 import $ from 'jquery'; 
+import {Route,Switch,BrowserRouter,Redirect} from 'react-router-dom';
 
 
 class App extends Component{
@@ -20,12 +22,18 @@ class App extends Component{
   }
   render(){
     return(
-        <div>
-          <Header />
-          <Title />
-          <Content />
-          <Footer />
-        </div>
+          <BrowserRouter>
+            <Header />
+            <Switch>
+                <Route exact path="/" component={Content} />
+                <Route  path="/about" component={About} />
+                <Route  path="/contactus" component={ContactUs} />
+            </Switch>
+            <Footer />
+          </BrowserRouter>
+
+      
+  
     )
   }
 }

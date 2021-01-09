@@ -8,6 +8,10 @@
     font-size: 25px;
     padding: 10px;
     color: #90999F;
+    cursor: pointer;
+}
+.containe i:hover{
+    color: #D82425;
 }
 .footer{
     border-top: 2px solid #3C464E;
