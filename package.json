@@ -2,7 +2,7 @@
   "name": "haykal-media-task",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://eyad99.github.io/Haykal_Media",
+  "homepage": "https://eyad99.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.2",
