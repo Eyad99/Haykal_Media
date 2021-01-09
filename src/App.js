@@ -24,11 +24,12 @@ class App extends Component{
     return(
           <BrowserRouter>
             <Header />
-            <Switch>
+            {/* <Switch>
                 <Route exact path="/" component={Content} />
                 <Route  path="/about" component={About} />
                 <Route  path="/contactus" component={ContactUs} />
-            </Switch>
+            </Switch> */}
+            <Content />
             <Footer />
           </BrowserRouter>
 
