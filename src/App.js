@@ -22,18 +22,16 @@ class App extends Component{
   }
   render(){
     return(
-          // <BrowserRouter>
-          //    <Switch>
-          //       <Route exact path="/" component={Content} />
-          //       <Route  path="/about" component={About} />
-          //       <Route  path="/contactus" component={ContactUs} />
-          //   </Switch> 
-          // </BrowserRouter>
-          <div>
-              <Header />
-              <Content />
+          <BrowserRouter>
+          <Header />
+            <Switch>
+                <Route exact path="/" component={() => (<Redirect to='/Haykal_Media' />)} />
+                <Route exact path="/Haykal_Media" component={Content} />
+                <Route  path="/about" component={About} />
+                <Route  path="/contactus" component={ContactUs} />
+            </Switch>
             <Footer />
-          </div>
+          </BrowserRouter>
 
       
   

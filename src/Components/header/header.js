@@ -7,10 +7,10 @@ const Header =()=>{
     return(
         <nav className="navbar navbar-expand-lg navbar-fixed-top navbar-light">
 
-            <a className="navbar-brand" to="/">
+            <Link className="navbar-brand" to="/">
                 <h6>Harvard Business Review</h6>
                 <span className="navbar-brand-span">كارفارد بزنس ريفيو </span>
-            </a>
+            </Link>
 
             <div className="search"><i className="fa fa-search fa-lg"></i></div>
             <div className="person"><i className="fa fa-user fa-2x"></i></div>
@@ -23,13 +23,13 @@ const Header =()=>{
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav">
                 <li className="nav-item active">
-                    <a className="nav-link" to="/">الرئيسية</a>
+                    <Link className="nav-link" to="/">الرئيسية</Link>
                 </li>
                 <li className="nav-item active">
-                    <a className="nav-link" to="/about">من نحن</a>
+                    <Link className="nav-link" to="/about">من نحن</Link>
                 </li>
                 <li className="nav-item active">
-                    <a className="nav-link" to="/contactus">اتصل بنا</a>
+                    <Link className="nav-link" to="/contactus">اتصل بنا</Link>
                 </li>
                 </ul>
             </div> 
