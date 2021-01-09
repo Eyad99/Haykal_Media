@@ -22,16 +22,18 @@ class App extends Component{
   }
   render(){
     return(
-          <BrowserRouter>
-            <Header />
-            {/* <Switch>
-                <Route exact path="/" component={Content} />
-                <Route  path="/about" component={About} />
-                <Route  path="/contactus" component={ContactUs} />
-            </Switch> */}
-            <Content />
+          // <BrowserRouter>
+          //    <Switch>
+          //       <Route exact path="/" component={Content} />
+          //       <Route  path="/about" component={About} />
+          //       <Route  path="/contactus" component={ContactUs} />
+          //   </Switch> 
+          // </BrowserRouter>
+          <div>
+              <Header />
+              <Content />
             <Footer />
-          </BrowserRouter>
+          </div>
 
       
   
